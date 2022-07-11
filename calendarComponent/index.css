@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+.top-row {
+    padding: 2%;
+}
+
+/* Cor que apresenta ao colocarmos o "selectable: true" nas opções da timeline */
+.vis-item.vis-selected {
+  background-color: white;
+  border-color: black;
+  color: black;
+  box-shadow: 0 0 10px gray;
+}
+
+/* Background dos grupos*/
+.vis-item.vis-background.zebra {
+    background-color: rgba(207, 207, 207, 0.7);
+}
+
+/*Remover estilos pré definidos pela biblioteca*/
+.vis-group-level-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vis-group-level-unknown-but-gte1 {
+    border: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-bottom: 1px solid #bfbfbf !important;
+}
+.vis-ltr .vis-label.vis-nested-group .vis-inner {
+    padding-left: 5px;
+}
+.vis-ltr .vis-label:not(.vis-nesting-group):not(.vis-group-level-0) {
+    padding-left: 0px;
+}
+
+/* Estilo da Tooltip */
+.vis-tooltip {
+    background-color: #fff !important;
+}
+
+
+

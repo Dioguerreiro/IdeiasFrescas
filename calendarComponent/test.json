@@ -1,0 +1,78 @@
+{
+    "categories": [
+        {
+            "id": 0,
+            "groupName": "Single",
+            "roomsInGroup": [4, 5, 6]
+          },
+          {
+            "id": 1,
+            "groupName": "Double",
+            "roomsInGroup": []
+          },
+          {
+            "id": 2,
+            "groupName": "Triple",
+            "roomsInGroup": []
+          },
+          {
+            "id": 3,
+            "groupName": "Quad",
+            "roomsInGroup": []
+          }
+    ],
+    "rooms": [{
+        "roomName": "Quarto 1",
+        "roomColor": "#0077c0"
+      },
+      {
+        "roomName": "Quarto 2",
+        "roomColor": "#e62615"
+      },
+      {
+        "roomName": "Quarto 3",
+        "roomColor": "#f1892d"
+      }],
+    "reservations": [{
+        "id": 0,
+        "roomId": 4,
+        "clientName": "Nome da Pessoa",
+        "reservationStartDate": "2022-3-17 10:00",
+        "reservationEndDate": "2022-3-21 21:00"
+      },
+      {
+        "id": 1,
+        "roomId": 4,
+        "clientName": "Nome da Pessoa",
+        "reservationStartDate": "2022-3-22 10:00",
+        "reservationEndDate": "2022-3-26 21:00"
+      },
+      {
+        "id": 2,
+        "roomId": 5,
+        "clientName": "Nome da Pessoa",
+        "reservationStartDate": "2022-3-16 10:00",
+        "reservationEndDate": "2022-3-24 21:00"
+      },
+      {
+        "id": 3,
+        "roomId": 5,
+        "clientName": "Nome da Pessoa",
+        "reservationStartDate": "2022-3-25 10:00",
+        "reservationEndDate": "2022-3-27 21:00"
+      },
+      {
+        "id": 4,
+        "roomId": 5,
+        "clientName": "Nome da Pessoa",
+        "reservationStartDate": "2022-3-30 10:00",
+        "reservationEndDate": "2022-4-5 21:00"
+      },
+      {
+        "id": 5,
+        "roomId": 6,
+        "clientName": "Nome da Pessoa",
+        "reservationStartDate": "2022-3-24 10:00",
+        "reservationEndDate": "2022-3-27 21:00"
+      }]
+}
